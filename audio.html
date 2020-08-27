@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs</title>
+    
+    
+<style>
+
+.mybutton{
+
+border-radius: 10px;
+height: 100px;
+width: 100px;
+background-color:  transparent green;
+border-radius: 100000px;
+
+}
+body{
+background-color:  transparent;
+
+}
+.mybutton{
+
+ background-color: violet;
+
+
+}
+h1{
+
+color: purple;
+ font-weight: bolder;
+ font-style: italic;
+
+
+}
+p{
+
+color: blueviolet;
+font-weight: bold;
+font-style: italic;
+
+
+}
+h3{
+color: blueviolet;
+font-weight: bold;
+font-style: italic;
+
+
+
+}
+audio controls{
+ color: aqua;
+ border-radius: 0;
+
+}
+img{
+
+   width: 110%;
+   height: 655px;
+   padding: 0;
+   display: flex;
+
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.banner{
+
+position: relative;
+width: 90%;
+margin: 0 ;
+
+}
+
+
+.heading{
+color: blueviolet;
+position: absolute;
+top: 30%;
+width: 100%;
+text-align: center;
+
+
+}
+.heading:hover{
+  text-shadow: 100px yellow;
+}
+
+a{
+  background:url(https://www.facebook.com/favicon.ico) no-repeat left center;
+      padding-left:19px;
+      position: absolute;
+top: 30%;
+width: 100%;
+text-align: right;
+
+
+
+
+}
+
+
+</style>
+  </head>
+<body class="body">
+<div class="kk"></div>
+  <div class="container">
+
+   <div class="row">
+      <a href="facebook.com/"></a>
+
+    <div class="banner">
+
+      <img class="dot" src="img1.jpg" alt="Sorry. Image is not showing">
+     
+      <h1 class="heading" onmousewheel="ola()">Listen different types of songs(old and new).<br> So listen Hindi,English Bangla songs<br> for free in various types of play button</h1>
+    </div>
+   </div>
+
+  </div>
+<audio src="1.mp3" id="hello1"></audio>
+<audio src="3.mp3" id="hello2"></audio>
+<audio src="2.mp3" id="hello3"></audio>
+
+<h1>NCS Release Alan walker Faded song as mp3</h2>
+  <button value="a"  onmouseover="playAudio1()" class="mybutton" id="button1">Play</button>
+
+<button  value="d" onmouseover="playAudio4()" class="mybutton" id="button1">Pause</button>
+<audio id="audio1" controls src="1.mp3"></audio>
+<h3>Manual</h3>  
+<p>To play this song take your cursor in the Play button. <br> And to pause it take it in the Pause button. <br>And to get it in easy way turn on the right play controls.</p>
+
+ 
+<hr>
+<h1>NCS Release Alan walker Spectre song as mp3</h1>
+<button  value="b" onclick="playAudio2()" class="mybutton" id="button3">Play</button>
+<button  value="e" onclick="playAudio5()" class="mybutton" id="button4">Pause</button>
+<audio id="audio1" controls src="3.mp3"></audio>
+<h3>Manual</h3>  
+<p>To play this song click the play button. <br> And to pause it click  the pause button. <br>And to get it in easy way turn on the right play controls.</p>
+<hr>
+<h1>NCS Release Alan walker Hope song as mp3</h1>
+<button  value="c" onmousewheel="playAudio3()" class="mybutton" id="button5">Play</button>
+<button  value="f" onmousewheel="playAudio6()" class="mybutton" id="button6">Pause</button>
+<audio id="audio1" controls src="2.mp3"></audio>
+<h3>Manual</h3>  
+<p>To play this song roll the wheel in the Play button. <br> And to pause it roll the wheel in the Pause button. <br>And to get it in easy way turn on the right play controls.</p>
+
+
+
+<script>
+var a = document.getElementById("hello1"); 
+
+function playAudio1() { 
+  a.play(); 
+} 
+
+function playAudio4() { 
+    a.pause(); 
+  } 
+  var b = document.getElementById("hello2"); 
+
+function playAudio2() { 
+  b.play(); 
+  
+} 
+//var v = document.getElementsByClassName("body").addEventListener()
+
+function playAudio5() { 
+    b.pause(); 
+  }
+  var c = document.getElementById("hello3"); 
+
+  function playAudio3() { 
+    c.play(); 
+  } 
+  
+  function playAudio6() { 
+      c.pause(); 
+    }
+   document.addEventListener("keypress", function(event){
+    var to =  event.a;
+    playAudio1(a.play);
+    
+
+   });
+   document.addEventListener("keypress", function(event){
+    var to =  event.key(a);
+    playAudio1();
+    
+
+   });
+  
+
+function ola() { 
+  hello.querySelector(".kk") ; 
+  
+} 
+  
+   
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+    
+</body>
+</html>
